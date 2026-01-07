@@ -2,7 +2,6 @@ import java.util.*;
 class Voter{
     private String id;
     private String name;
-
     public Voter(String id, String name){
         this.id = id;
         this.name = name;
