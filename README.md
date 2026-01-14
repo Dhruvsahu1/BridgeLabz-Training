@@ -1,8 +1,8 @@
 # BridgeLabz-Training
 
-## 📚 Training Modules
 
-### Module 1: Java Generics
+
+###  Java Generics
 **Date:** January 3, 2026
 
 Implemented type-safe generic classes and methods to ensure compile-time type checking and code reusability. Focused on eliminating runtime ClassCastException errors and improving code maintainability.
@@ -17,7 +17,7 @@ Implemented type-safe generic classes and methods to ensure compile-time type ch
 
 ---
 
-### Module 2: Collections Framework
+###  Collections Framework
 **Date:** January 5, 2026
 
 Comprehensive exploration of Java's Collections Framework, implementing various data structures and understanding their performance characteristics and use cases.
@@ -31,7 +31,7 @@ Comprehensive exploration of Java's Collections Framework, implementing various 
 
 ---
 
-### Module 3: I/O Stream Operations
+###  I/O Stream Operations
 **Date:** January 7, 2026
 
 Implemented file handling and data persistence using Java's I/O stream classes, focusing on efficient data reading, writing, and buffering strategies.
@@ -46,7 +46,7 @@ Implemented file handling and data persistence using Java's I/O stream classes, 
 
 ---
 
-### Module 4: Exception Handling
+###  Exception Handling
 **Date:** January 8, 2026
 
 Developed robust error handling mechanisms using Java's exception framework, ensuring application stability and graceful error recovery.
@@ -61,7 +61,7 @@ Developed robust error handling mechanisms using Java's exception framework, ens
 
 ---
 
-### Module 5: Pattern Matching & Unit Testing
+###  Pattern Matching & Unit Testing
 **Date:** January 12, 2026
 
 Advanced problem-solving using Regular Expressions for string validation and pattern matching, coupled with comprehensive unit testing using JUnit framework.
@@ -93,10 +93,10 @@ BridgeLabz-Training/
 │   └── gcr-codebase/
 │   |   ├── generics/
 │   |   ├── collections/
-│   |    ├── streams/
-│   |    ├── exceptions/
-│   |    ├── regex/
-│   |    ├── jUnit/
+│   |   ├── streams/
+│   |   ├── exceptions/
+│   |   ├── regex/
+│   |   ├── jUnit/
 │   └── leet-code-codebase/
 └── README.md
 ```
