@@ -1,0 +1,17 @@
+package reading;
+import java.io.File;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class jacksonReading {
+	public static void main(String[] args) {
+		try {
+			ObjectMapper om = new ObjectMapper();
+			User user = om.readValue(new File("user.json"),User.class);
+			System.out.println("User Name "+user.getName());
+			System.out.println("Skills"+user.getSkills());
+			System.out.println("Address"+user.getAddress());
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

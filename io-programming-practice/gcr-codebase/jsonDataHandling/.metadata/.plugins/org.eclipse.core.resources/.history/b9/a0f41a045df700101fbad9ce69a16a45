@@ -1,0 +1,13 @@
+{
+  "skills": [
+    "Java",
+    "JavaScript",
+    "React"
+  ],
+  "name": "Dhruv",
+  "id": 101,
+  "age": 25,
+  "email": "Dhruv@gmail.com",
+  "address":{"city":"Kanpur","houseNo":208,"state":"UttarPradesh"
+}
+{},"name":"Dhruv","age":25,"email":"dhruv@gmail.com"}

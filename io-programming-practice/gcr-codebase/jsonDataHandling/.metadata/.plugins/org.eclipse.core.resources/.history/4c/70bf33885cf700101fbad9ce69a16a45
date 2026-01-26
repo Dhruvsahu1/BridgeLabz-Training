@@ -1,0 +1,11 @@
+{
+  "Skills": [
+    "Java",
+    "JavaScript",
+    "React"
+  ],
+  "name": "Dhruv",
+  "id": 101,
+  "age": 25,
+  "email": "Dhruv@gmail.com"
+}

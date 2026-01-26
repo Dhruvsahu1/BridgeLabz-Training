@@ -1,0 +1,18 @@
+package practiceProblem;
+
+import org.json.JSONObject;
+
+public class NestedJsonObject {
+	public static void main(String[] args) {
+		JSONObject jsonObject =  new JSONObject();
+		jsonObject.put("name", "Dhruv");
+		jsonObject.put("age", 25);
+		jsonObject.put("email", "dhruv@gmail.com");
+		JSONObject address = new JSONObject();
+		address.put("houseNo", 208);
+		address.put("city", "Kanpur");
+		address.put("state", "UttarPradesh");
+		jsonObject.put("Address", address);
+		System.out.println(jsonObject);
+	}
+}

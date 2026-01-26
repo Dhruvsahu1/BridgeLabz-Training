@@ -1,0 +1,17 @@
+{
+  "id": 101,
+  "name": "Dhruv",
+  "age": 25,
+  "email": "dhruv@gmail.com",
+  "skills": [
+    "Java",
+    "JavaScript",
+    "React"
+  ],
+  "address": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India",
+    "pincode": "560001"
+  }
+}
