@@ -1,5 +1,5 @@
 package interfaces;
 
-public class FareCalculator {
-
+public interface FareCalculator {
+	double calculateFare(double distance);
 }
