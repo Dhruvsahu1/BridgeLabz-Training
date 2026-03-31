@@ -1,0 +1,24 @@
+package practiceProblem;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+public class AllInOne {
+	public static void main(String[] args) {
+		JSONObject object = new JSONObject();
+		object.put("id", 101);
+		object.put("name", "Dhruv");
+		object.put("age", 25);
+		object.put("email", "Dhruv@gmail.com");
+		JSONArray skills = new JSONArray();
+		skills.put("Java");
+		skills.put("JavaScript");
+		skills.put("React");
+		object.put("Skills", skills);
+		JSONObject address = new JSONObject();
+		address.put("HouseNo", 325);
+		address.put("city", "Kanpur");
+		address.put("State", "uttarPradesh");
+		System.out.println("object is"+object);
+	}
+}
